@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>散列海报画廊</title>
+    <link rel="stylesheet" href="gallery.css">                  
+    <!-- <script src="jquery.min.js"></script>    -->
+  </head>
+  <body onselectstart="return false">
+  
+
+ <div class="wrap" id="wrap">  
+ </div>
+  <!-- 2.改写视图为模板字符串 -->
+  <!-- photo负责平移和旋转(平面上xy旋转) -->
+  <!-- photo-wrap负责3D翻转(正反面切换) -->
+
+ <script type="x/template" id="content">
+
+    <div class="photo photo-front" onclick="turn(this)" id="photo-{{index}}">    
+      <div class="photo-wrap">        
+        <div class="side side-front">
+          <p class="img">
+            <img src="img/{{img}}">
+          </p>
+          <p class="caption">
+            {{caption}}
+          </p>
+        </div>
+        <div class="side side-back">
+          <p class="desc">
+            {{desc}}
+          </p>
+        </div>
+      </div> 
+    </div>   
+   </div>
+   
+</script>
+  
+                  
+  <script src="data.js"></script>
+  <script src="gallery.js"></script>  
+  </body>
+</html>
