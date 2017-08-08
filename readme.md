@@ -1,3 +1,30 @@
-Git is a version control system.
-Git is free software.
-I add some message.
+大标题
+=========
+中标题
+--------
+#一级标题
+##二级标题
+###三级标题
+####四级标题
+#####五级标题
+######六级标题
+    这是普通文本
+    这真的是普通文本
+    不信你看看,单行文本前面有两个Tab
+[这是一个超链接](http://www.baidu.com "这是鼠标悬停时显示的文字")
+这是`高亮`部分,用`Tab上面的符合`围起来
+* 前面有圆点符合
+* 这个前面也是
+  要注意的是星号*后面要有一个空格。否则显示为普通星号。
+* 一级
+  * 二级
+    * 三级
+二级圆点和三级圆点。就是多加一个Tab。
+>缩进
+>>缩进
+>>>缩进
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo") 
+  叹号! + 方括号[ ] + 括号( ) 其中叹号里是图片的URL。
+    如果你想使图片带有超链接的功能，即点击一个图片进入一个指定的网页
+[![baidu]](http://baidu.com)  
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"  
